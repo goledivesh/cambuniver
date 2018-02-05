@@ -1,6 +1,6 @@
 /*
-  Theme Name: LearnLang
-  Developer: Divesh Gole
+  Theme Name: CambUni
+  Author: Divesh Gole
 */
 
 body {
@@ -174,7 +174,7 @@ div.card-block option {
 
 .about-exam p {
     font-size: 18px;
-    text-align: justify;
+    text-align: justify
 }
 
 
@@ -221,13 +221,6 @@ div.features .icon {
     padding: 40px 90px;
 }
 
-div.benefits p {
-    font-size: 19px;
-    padding-top: 13px;
-    font-weight: 450;
-    color: dimgray;
-}
-
 .benefits-header {
     text-align: center;
 }
@@ -261,8 +254,9 @@ div.benefits p {
 }
 
 .text-section p {
-    line-height: 1.4;
+    line-height: 1.3;
     font-size: 14px;
+    color: dimgray;
 }
 
 .text-section h5 {
@@ -282,13 +276,13 @@ div.benefits p {
     width: 3px;
     background: #fc02fe;
     left: 10px;
-    top: 70px;
+    top: 70px
 }
 
 .benefits-right-section h4 {
     position: relative;
     margin-bottom: 16px;
-    padding-bottom: 15px;
+    padding-bottom: 15px
 }
 
 .benefits-right-section h4:before {
@@ -300,13 +294,18 @@ div.benefits p {
     bottom: -10px;
 }
 
+.benefits .benefits-right-section p{
+    font-size: 18px;
+    color: dimgray;
+}
+
 /*----------------------------------------------
         WORK SECTION
 ----------------------------------------------*/
 
 .work {
     text-align: center;
-    padding: 60px;
+    margin: 40px;
 }
 
 .work h4 {
@@ -339,19 +338,20 @@ div.benefits p {
     background: #36e198;
     padding: 7px 22px;
     top: -8px;
-    left: 85px;
+    left: 85px
 }
 
 .work-blocks .block {
     border: 2px solid #36e198;
     padding: 40px;
-    margin: 30px 40px;
+    margin:  30px auto;
+    text-align: left;
 }
 
 div.work-blocks p {
     font-size: 19px;
     line-height: 1.3;
-    font-family: sans-serif;
+    font-family: sans-serif
 }
 
 /*----------------------------------------------
@@ -366,13 +366,13 @@ div.work-blocks p {
     background-position: center;
     padding: 80px 150px;
     color: white;
-    box-shadow: inset 1100px 0 100px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 1100px 0 100px rgba(0, 0, 0, 0.6)
 }
 
 .footer-section p {
     font-size: 20px;
     font-weight: 600;
-    font-family: sans-serif;
+    font-family: sans-serif
 }
 
 .footer-section .btn {
@@ -443,6 +443,7 @@ footer h6 {
 
 @media (min-width: 767px) {
     
+
     .form-section {
         margin: auto;
     }
@@ -460,6 +461,27 @@ footer h6 {
     }
     .footer-section {
         padding: 40px;
+    }
+}
+
+@media (min-width: 640px){
+    .features{
+        padding: 20px; 
+    }
+    .features .feat{
+        padding: 10px;
+    }
+    .about-exam{
+        padding: 20px;
+    }
+    .work{
+        padding: 30px 0px;
+    }
+    .work-blocks .block{
+        margin: 30px 0px; 
+    }
+    .footer-section{
+        padding: 20px 30px;
     }
 }
 
