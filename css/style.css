@@ -1,6 +1,6 @@
 /*
   Theme Name: LearnLang
-  Author: Divesh Gole
+  Developer: Divesh Gole
 */
 
 body {
@@ -174,7 +174,7 @@ div.card-block option {
 
 .about-exam p {
     font-size: 18px;
-    text-align: justify
+    text-align: justify;
 }
 
 
@@ -234,7 +234,7 @@ div.benefits p {
 
 .benefits-header h3 {
     position: relative;
-    margin-bottom: 12px
+    margin-bottom: 12px;
 }
 
 .benefits-header h3:before {
@@ -262,7 +262,7 @@ div.benefits p {
 
 .text-section p {
     line-height: 1.4;
-    font-size: 14px
+    font-size: 14px;
 }
 
 .text-section h5 {
@@ -282,13 +282,13 @@ div.benefits p {
     width: 3px;
     background: #fc02fe;
     left: 10px;
-    top: 70px
+    top: 70px;
 }
 
 .benefits-right-section h4 {
     position: relative;
     margin-bottom: 16px;
-    padding-bottom: 15px
+    padding-bottom: 15px;
 }
 
 .benefits-right-section h4:before {
@@ -339,7 +339,7 @@ div.benefits p {
     background: #36e198;
     padding: 7px 22px;
     top: -8px;
-    left: 85px
+    left: 85px;
 }
 
 .work-blocks .block {
@@ -351,7 +351,7 @@ div.benefits p {
 div.work-blocks p {
     font-size: 19px;
     line-height: 1.3;
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 
 /*----------------------------------------------
@@ -366,13 +366,13 @@ div.work-blocks p {
     background-position: center;
     padding: 80px 150px;
     color: white;
-    box-shadow: inset 1100px 0 100px rgba(0, 0, 0, 0.6)
+    box-shadow: inset 1100px 0 100px rgba(0, 0, 0, 0.6);
 }
 
 .footer-section p {
     font-size: 20px;
     font-weight: 600;
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 
 .footer-section .btn {
@@ -443,11 +443,6 @@ footer h6 {
 
 @media (min-width: 767px) {
     
-    *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
     .form-section {
         margin: auto;
     }
